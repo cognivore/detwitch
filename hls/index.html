@@ -1,0 +1,10 @@
+<video id='baduk420' autoplay controls src="blob:https://behold.memorici.de/baduk420.m3u8" width="100%"></video>
+<script src="/index.js"></script>
+<script>
+        if ( Hls.isSupported() ) {
+              var video = document.getElementById('baduk420');
+              var hls = new Hls();
+              hls.loadSource('baduk420.m3u8');
+              hls.attachMedia(video);
+        }
+</script>
