@@ -3,7 +3,7 @@ server {
         charset utf-8;
 
         location / {
-                root /tmp/hls;
+                root /var/www/detwitch/hls;
         }
 
     listen 443 ssl; # managed by Certbot
